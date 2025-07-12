@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -41,15 +41,7 @@
 
 
 
-    <section class="social-media">
-      <h2>Follow Us</h2>
-      <div class="social-links">
-        <a href="#" target="_blank">Facebook</a>
-        <a href="#" target="_blank">Twitter</a>
-        <a href="#" target="_blank">LinkedIn</a>
-        <a href="#" target="_blank">Instagram</a>
-      </div>
-    </section>
+
   </main>
 
   <footer>
