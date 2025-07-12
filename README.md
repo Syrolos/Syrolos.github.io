@@ -1,7 +1,16 @@
-# Syrolos.github.io
+<!DOCTYPE html>
+<html>
 
-Test
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>bane</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-Test2
+<body>
+  Bane?
+  <script src="script.js"></script>
+</body>
 
-Test3
+</html>
