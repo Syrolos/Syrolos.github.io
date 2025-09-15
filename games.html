@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games - Y2K Edition</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
             <div class="window-content">
                 <h2>🎮 My Game Collection</h2>
                 <div class="games-container">
-                    <p><a href="games/ciarises.zip" download>CIA Rises</a></p>
+                    <p><a href="#" onclick="chooseCIARises()">CIA Rises</a></p>
    
                 <p style="margin-top: 15px; font-size: 10px; color: #800080;">
                     <blink>*** What am I doing with my life? ***</blink>
@@ -34,5 +35,15 @@
             </div>
         </div>
     </div>
+<script>
+function chooseCIARises() {
+    const choice = confirm('Do you want to download the file locally?');
+    if (choice) {
+        window.location.href = 'games/ciarises.zip';
+    } else {
+        window.location.href = 'ciarises.html';
+    }
+}
+</script>
 </body>
 </html>
